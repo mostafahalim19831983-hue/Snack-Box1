@@ -154,9 +154,10 @@ export default function Index() {
                 </div>
               </div>
 
-              <div className="inline-flex items-center gap-2 bg-logo-green/10 text-logo-green px-3 py-1.5 rounded-full text-xs font-semibold mb-4">
-                <CheckCircle className="w-3 h-3" />
-                Premium Quality Guaranteed
+              <div className="inline-flex items-center gap-2 bg-logo-green/10 text-logo-green px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold mb-4">
+                <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4" />
+                <span className="hidden sm:inline">Premium Quality Guaranteed</span>
+                <span className="sm:hidden">Premium Quality</span>
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-heading-red mb-4 leading-tight tracking-tight">
