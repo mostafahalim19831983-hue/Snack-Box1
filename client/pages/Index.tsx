@@ -272,20 +272,20 @@ export default function Index() {
       {/* Product Sizes Section */}
       <section
         id="products-section"
-        className="py-20 px-4 bg-gradient-to-b from-white to-blue-50"
+        className="py-12 px-4 bg-gradient-to-b from-white to-blue-50"
       >
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-heading-red mb-4 tracking-tight">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-heading-red mb-3 tracking-tight">
               Choose Your Perfect Box Size
             </h2>
-            <p className="text-lg text-snack-dark-blue/70 max-w-2xl mx-auto">
+            <p className="text-base text-snack-dark-blue/70 max-w-xl mx-auto">
               From small treats to large celebrations, we have the perfect size
               for every occasion
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 max-w-5xl mx-auto">
             {products.map((product, index) => (
               <div
                 key={product.id}
