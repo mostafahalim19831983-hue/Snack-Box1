@@ -417,21 +417,21 @@ export default function Index() {
             </div>
 
             {/* Trust Indicators */}
-            <div className="flex flex-wrap items-center justify-center gap-8 text-sm text-snack-dark-blue/60">
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-logo-green" />
+            <div className="flex flex-wrap items-center justify-center gap-4 text-xs text-snack-dark-blue/60">
+              <div className="flex items-center gap-1.5">
+                <CheckCircle className="w-3 h-3 text-logo-green" />
                 30+ Premium Snacks
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-logo-green" />
+              <div className="flex items-center gap-1.5">
+                <CheckCircle className="w-3 h-3 text-logo-green" />
                 Gift-Ready Packaging
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-logo-green" />
+              <div className="flex items-center gap-1.5">
+                <CheckCircle className="w-3 h-3 text-logo-green" />
                 Fast US Shipping
               </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle className="w-5 h-5 text-logo-green" />
+              <div className="flex items-center gap-1.5">
+                <CheckCircle className="w-3 h-3 text-logo-green" />
                 Satisfaction Guaranteed
               </div>
             </div>
@@ -440,13 +440,13 @@ export default function Index() {
       </section>
 
       {/* Conversion Boosters */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-7xl mx-auto">
+      <section className="py-8 px-4 bg-white">
+        <div className="max-w-5xl mx-auto">
           {/* Fast Shipping */}
-          <div className="text-center mb-12">
-            <div className="inline-flex items-center gap-4 bg-logo-green/10 text-logo-green px-8 py-4 rounded-2xl">
-              <Truck className="w-8 h-8" />
-              <span className="text-lg font-semibold">
+          <div className="text-center mb-6">
+            <div className="inline-flex items-center gap-3 bg-logo-green/10 text-logo-green px-4 py-2 rounded-xl">
+              <Truck className="w-5 h-5" />
+              <span className="text-sm font-semibold">
                 Fast & Guaranteed Shipping Across the United States
               </span>
             </div>
@@ -454,10 +454,10 @@ export default function Index() {
 
           {/* Payment Icons */}
           <div className="text-center">
-            <p className="text-gray-600 mb-8 text-lg font-semibold">
+            <p className="text-gray-600 mb-4 text-sm font-semibold">
               Secure Payment Methods
             </p>
-            <div className="flex justify-center items-center gap-6">
+            <div className="flex justify-center items-center gap-4">
               <div className="w-20 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-lg hover:shadow-xl transition-shadow">
                 VISA
               </div>
