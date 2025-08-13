@@ -629,10 +629,13 @@ export default function Index() {
                   <div className="flex justify-center mb-3 sm:mb-4">
                     <div className="bg-blue-600 p-3 rounded-xl shadow-lg inline-block">
                       <img
-                        src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F9eae62feb04c48cb96ee02dd2f9b0679?format=webp&width=800"
-                        alt="Spark Icon"
-                        className="h-6 w-6 sm:h-8 sm:w-8 filter brightness-0 invert"
-                      />
+                      src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F9eae62feb04c48cb96ee02dd2f9b0679?format=webp&width=100&quality=90"
+                      alt="Premium quality spark icon - Gift A Snack quality guarantee"
+                      className="h-6 w-6 sm:h-8 sm:w-8 filter brightness-0 invert"
+                      loading="lazy"
+                      width="32"
+                      height="32"
+                    />
                     </div>
                   </div>
 
