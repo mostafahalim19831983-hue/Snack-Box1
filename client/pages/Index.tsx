@@ -159,7 +159,7 @@ export default function Index() {
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd932fcd18414ba798762d622c2b825c?format=webp&width=800"
                     alt="Nut Cravings Logo"
-                    className="h-12 sm:h-14 lg:h-16 w-auto"
+                    className="h-18 sm:h-20 lg:h-24 w-auto"
                   />
                 </div>
               </div>
