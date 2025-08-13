@@ -233,25 +233,25 @@ export default function Index() {
       <AutoScrollCarousel />
 
       {/* Features & Benefits Section */}
-      <section className="py-20 px-4 bg-gradient-to-b from-blue-50 to-white">
-        <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-heading-red mb-4 tracking-tight">
+      <section className="py-12 px-4 bg-gradient-to-b from-blue-50 to-white">
+        <div className="max-w-6xl mx-auto">
+          <div className="text-center mb-10">
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-heading-red mb-3 tracking-tight">
               Why Choose Snack Box?
             </h2>
-            <p className="text-lg text-snack-dark-blue/70 max-w-2xl mx-auto">
+            <p className="text-base text-snack-dark-blue/70 max-w-xl mx-auto">
               Discover what makes our snack boxes the perfect choice for every
               occasion
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
             {features.map((feature, index) => {
               const IconComponent = feature.icon;
               return (
                 <div
                   key={index}
-                  className="text-center card-enhanced p-8 hover:scale-105 transition-all duration-300"
+                  className="text-center card-enhanced p-5 hover:scale-105 transition-all duration-300"
                 >
                   <div className="feature-icon mb-6">
                     <IconComponent className="w-7 h-7" />
