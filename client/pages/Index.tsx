@@ -638,9 +638,12 @@ export default function Index() {
 
                   <div className="aspect-square overflow-hidden rounded-2xl bg-gradient-to-br from-logo-green/5 to-logo-green/10 p-4">
                     <img
-                      src={selectedProduct.image}
-                      alt={selectedProduct.name}
+                      src={`${selectedProduct.image}&quality=85`}
+                      alt={`${selectedProduct.name} - Detailed view of premium snack variety box contents`}
                       className="w-full h-full object-cover rounded-xl image-hover"
+                      loading="lazy"
+                      width="400"
+                      height="400"
                     />
                   </div>
                 </div>
