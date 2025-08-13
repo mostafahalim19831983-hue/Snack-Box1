@@ -49,7 +49,7 @@ const products = [
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F5ff73d8278224c2ab0b862f059e3802c?format=webp&width=800",
     walmartLink:
-      "https://goto.walmart.com/c/5610446/565706/9383?veh=aff&sharedid=mp_16964_2016489964_gjxxi_oa60h68_B7E6E4A96EDA37A6A1D11E1083EBED26&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F5915077819%3FselectedSellerId%3D16964%26selectedOfferId%3DB7E6E4A96EDA37A6A1D11E1083EBED26",
+      "https://www.walmart.com/ip/Gift-a-Snack-52-Count-Snack-Box-with-Variety-Snacks-Chips-Crackers-Cookies-Candy/5915077819?classType=VARIANT&athbdg=L1900",
   },
   {
     id: 4,
