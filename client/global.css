@@ -217,6 +217,7 @@
     transition:
       transform 0.3s ease,
       box-shadow 0.3s ease;
+    will-change: transform;
   }
 
   .image-hover:hover {
@@ -227,6 +228,7 @@
   .button-enhanced {
     transition: all 0.3s ease;
     box-shadow: 0 4px 6px -1px rgba(46, 204, 113, 0.3);
+    will-change: transform, box-shadow;
   }
 
   .button-enhanced:hover {
