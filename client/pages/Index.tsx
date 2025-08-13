@@ -223,9 +223,13 @@ export default function Index() {
               <div className="relative">
                 <div className="absolute inset-0 bg-gradient-to-r from-logo-green/20 to-green-400/20 rounded-2xl transform rotate-6"></div>
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2F9a927196010f464595d03440e3666d58?format=webp&width=800"
-                  alt="Snack Box Collection"
+                  src="https://cdn.builder.io/api/v1/image/assets%2Ffc09862a9f0941d4aeda13a8cb2480bc%2F9a927196010f464595d03440e3666d58?format=webp&width=800&quality=85"
+                  alt="Gift A Snack premium variety snack boxes collection featuring chips, crackers, cookies and candy assortments"
                   className="relative z-10 w-full h-auto rounded-2xl shadow-2xl image-hover"
+                  loading="eager"
+                  fetchPriority="high"
+                  width="600"
+                  height="400"
                 />
               </div>
             </div>
