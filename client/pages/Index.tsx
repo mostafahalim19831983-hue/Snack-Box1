@@ -37,7 +37,7 @@ const products = [
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd06d6ab52e341e2b57efd6b128aeeaa?format=webp&width=800",
     walmartLink:
-      "https://goto.walmart.com/c/5610446/565706/9383?veh=aff&sharedid=mp_16964_2016489964_ai3se_ims37kq_ACF1D44511903907A6802D948A4EFE22&u=https%3A%2F%2Fwww.walmart.com%2Fip%2F6277108895%3FselectedSellerId%3D16964%26selectedOfferId%3DACF1D44511903907A6802D948A4EFE22",
+      "https://www.walmart.com/ip/Gift-a-Snack-Chip-Variety-Snack-Box-Snack-Pack-Variety-Box-42-Count/5298521902?classType=VARIANT&athbdg=L1600",
   },
   {
     id: 3,
