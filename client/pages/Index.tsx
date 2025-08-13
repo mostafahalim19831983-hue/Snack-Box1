@@ -178,12 +178,12 @@ export default function Index() {
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center lg:justify-start mb-4 sm:mb-5">
                 <button
                   onClick={scrollToProducts}
-                  className="bg-logo-green hover:bg-green-500 text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base button-enhanced flex items-center justify-center gap-2 min-h-[40px]"
+                  className="bg-logo-green hover:bg-green-500 text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base button-enhanced flex items-center justify-center gap-2 min-h-[40px] touch-manipulation tap-highlight-none focus-visible-ring"
                 >
                   <Package className="w-4 h-4" />
                   Shop Now
                 </button>
-                <button className="border-2 border-logo-green text-logo-green hover:bg-logo-green hover:text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base transition-all duration-300 min-h-[40px]">
+                <button className="border-2 border-logo-green text-logo-green hover:bg-logo-green hover:text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base transition-all duration-300 min-h-[40px] touch-manipulation tap-highlight-none focus-visible-ring">
                   Learn More
                 </button>
               </div>
