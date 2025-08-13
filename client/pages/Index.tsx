@@ -405,7 +405,7 @@ export default function Index() {
         <div className="max-w-4xl mx-auto text-center relative z-10">
           <div className="card-enhanced p-6 sm:p-8 bg-white/80 backdrop-blur-sm">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-heading-red mb-4 tracking-tight">
-              Ready to Experience the Tastiest Snack Box?
+              Ready to Experience the Tastiest Gift A Snack Box?
             </h2>
             <p className="text-base text-snack-dark-blue/80 mb-6 max-w-2xl mx-auto leading-relaxed">
               Join thousands of satisfied customers. Choose your perfect size
