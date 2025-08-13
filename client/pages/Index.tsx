@@ -174,7 +174,7 @@ export default function Index() {
               </div>
 
               <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-heading-red mb-4 leading-tight tracking-tight">
-                Snack Box
+                <span className="block">Gift A Snack Box</span>
                 <span className="block text-snack-dark-blue">
                   Perfect Gift for
                 </span>
