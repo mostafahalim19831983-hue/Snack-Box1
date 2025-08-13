@@ -182,6 +182,40 @@
     display: none !important;
   }
 
+  /* Additional TikTok specific hiding */
+  .tiktok-embed-container iframe {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  /* Hide TikTok related videos and suggestions */
+  .tiktok-embed iframe::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background: transparent;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  /* Clean video-only display */
+  .tiktok-video-only {
+    position: relative;
+    width: 100%;
+    max-width: 325px;
+    margin: 0 auto;
+  }
+
+  .tiktok-video-only iframe {
+    width: 100% !important;
+    height: 575px !important;
+    border: none !important;
+    border-radius: 12px !important;
+  }
+
   .card-enhanced {
     border: 2px solid #2ecc71;
     background: white;
