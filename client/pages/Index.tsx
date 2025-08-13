@@ -189,16 +189,17 @@ export default function Index() {
               </div>
 
               {/* Trust Indicators */}
-              <div className="flex items-center justify-center lg:justify-start gap-4 text-xs text-snack-dark-blue/60">
-                <div className="flex items-center gap-1.5">
+              <div className="flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-4 text-xs text-snack-dark-blue/60">
+                <div className="flex items-center gap-1">
                   <CheckCircle className="w-3 h-3 text-logo-green" />
-                  30+ Snack Varieties
+                  <span className="hidden sm:inline">30+ Snack Varieties</span>
+                  <span className="sm:hidden">30+ Varieties</span>
                 </div>
-                <div className="flex items-center gap-1.5">
+                <div className="flex items-center gap-1">
                   <CheckCircle className="w-3 h-3 text-logo-green" />
                   Fast Shipping
                 </div>
-                <div className="flex items-center gap-1.5">
+                <div className="flex items-center gap-1">
                   <CheckCircle className="w-3 h-3 text-logo-green" />
                   Gift Ready
                 </div>
