@@ -120,29 +120,16 @@ export default function Index() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  // Initialize TikTok embeds
+  // Initialize TikTok embeds with improved performance
   useEffect(() => {
     const timer = setTimeout(() => {
       if ((window as any).tiktokEmbed?.lib?.render) {
         (window as any).tiktokEmbed.lib.render();
       }
-    }, 1000);
+    }, 500);
 
     return () => clearTimeout(timer);
   }, []);
-
-  const StarRating = ({ rating }: { rating: number }) => {
-    return (
-      <div className="flex gap-1">
-        {[...Array(5)].map((_, i) => (
-          <Star
-            key={i}
-            className={`w-5 h-5 ${i < rating ? "fill-snack-gold text-snack-gold" : "text-gray-300"}`}
-          />
-        ))}
-      </div>
-    );
-  };
 
   return (
     <div className="min-h-screen bg-blue-50">
