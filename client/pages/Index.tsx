@@ -154,22 +154,22 @@ export default function Index() {
             {/* Content */}
             <div className="text-center lg:text-left fade-in">
               {/* Logo with frame */}
-              <div className="flex justify-center lg:justify-start mb-6 sm:mb-8">
-                <div className="bg-gray-100 p-4 sm:p-6 rounded-xl sm:rounded-2xl shadow-lg inline-block">
+              <div className="flex justify-center lg:justify-start mb-4 sm:mb-5">
+                <div className="bg-gray-100 p-3 sm:p-4 rounded-lg sm:rounded-xl shadow-lg inline-block">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd932fcd18414ba798762d622c2b825c?format=webp&width=800"
                     alt="Nut Cravings Logo"
-                    className="h-16 sm:h-20 lg:h-24 w-auto"
+                    className="h-12 sm:h-14 lg:h-16 w-auto"
                   />
                 </div>
               </div>
 
-              <div className="inline-flex items-center gap-2 bg-logo-green/10 text-logo-green px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                <CheckCircle className="w-4 h-4" />
+              <div className="inline-flex items-center gap-2 bg-logo-green/10 text-logo-green px-3 py-1.5 rounded-full text-xs font-semibold mb-4">
+                <CheckCircle className="w-3 h-3" />
                 Premium Quality Guaranteed
               </div>
 
-              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-heading-red mb-6 leading-tight tracking-tight">
+              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-heading-red mb-4 leading-tight tracking-tight">
                 Snack Box
                 <span className="block text-snack-dark-blue">
                   Perfect Gift for
