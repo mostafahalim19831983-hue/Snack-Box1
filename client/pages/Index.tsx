@@ -171,8 +171,8 @@ export default function Index() {
               </h1>
 
               <p className="text-sm sm:text-base text-snack-dark-blue/80 mb-4 sm:mb-5 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                Premium assortment of delicious snacks, beautifully packaged.
-                Perfect for gifts, office treats, and special occasions.
+                <span className="hidden sm:inline">Premium assortment of delicious snacks, beautifully packaged. Perfect for gifts, office treats, and special occasions.</span>
+                <span className="sm:hidden">Premium snack boxes perfect for gifts and special occasions.</span>
               </p>
 
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center lg:justify-start mb-4 sm:mb-5">
