@@ -304,26 +304,26 @@ export default function Index() {
                   )}
                 </div>
 
-                <div className="p-4">
-                  <h3 className="text-base font-bold text-heading-red mb-2 line-clamp-2 group-hover:text-logo-green transition-colors">
+                <div className="p-3">
+                  <h3 className="text-sm font-bold text-heading-red mb-2 line-clamp-2 group-hover:text-logo-green transition-colors">
                     {product.name}
                   </h3>
-                  <p className="text-gray-600 mb-3 line-clamp-2 leading-relaxed text-xs">
+                  <p className="text-gray-600 mb-2 line-clamp-2 leading-relaxed text-xs">
                     {product.description}
                   </p>
-                  <div className="flex justify-between items-center mb-3">
-                    <span className="text-xl font-bold text-heading-red">
+                  <div className="flex justify-between items-center mb-2">
+                    <span className="text-lg font-bold text-heading-red">
                       {product.price}
                     </span>
-                    <span className="text-xs text-white font-semibold bg-logo-green px-2 py-1 rounded-full">
+                    <span className="text-xs text-white font-semibold bg-logo-green px-2 py-0.5 rounded-full">
                       {product.size}
                     </span>
                   </div>
                   <button
                     onClick={() => setSelectedProduct(product)}
-                    className="w-full bg-logo-green hover:bg-green-500 text-white font-bold py-2 rounded-xl text-sm flex items-center justify-center gap-1"
+                    className="w-full bg-logo-green hover:bg-green-500 text-white font-bold py-1.5 rounded-lg text-xs flex items-center justify-center gap-1"
                   >
-                    <Package className="w-4 h-4" />
+                    <Package className="w-3 h-3" />
                     Open Your Box
                   </button>
                 </div>
