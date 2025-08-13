@@ -458,13 +458,13 @@ export default function Index() {
               Secure Payment Methods
             </p>
             <div className="flex justify-center items-center gap-4">
-              <div className="w-20 h-12 bg-blue-600 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-8 bg-blue-600 rounded-lg flex items-center justify-center text-white text-xs font-bold shadow-lg hover:shadow-xl transition-shadow">
                 VISA
               </div>
-              <div className="w-20 h-12 bg-red-600 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-8 bg-red-600 rounded-lg flex items-center justify-center text-white text-xs font-bold shadow-lg hover:shadow-xl transition-shadow">
                 MC
               </div>
-              <div className="w-20 h-12 bg-blue-500 rounded-xl flex items-center justify-center text-white text-sm font-bold shadow-lg hover:shadow-xl transition-shadow">
+              <div className="w-16 h-8 bg-blue-500 rounded-lg flex items-center justify-center text-white text-xs font-bold shadow-lg hover:shadow-xl transition-shadow">
                 PayPal
               </div>
             </div>
@@ -473,9 +473,9 @@ export default function Index() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-snack-dark-blue text-white py-16 px-4">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+      <footer className="bg-snack-dark-blue text-white py-8 px-4">
+        <div className="max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
             {/* Quick Links */}
             <div>
               <h3 className="text-xl font-semibold mb-6 text-heading-red">
