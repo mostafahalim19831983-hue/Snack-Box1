@@ -198,17 +198,17 @@ export default function Index() {
               </div>
 
               {/* Trust Indicators */}
-              <div className="flex items-center justify-center lg:justify-start gap-6 text-sm text-snack-dark-blue/60">
-                <div className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-logo-green" />
+              <div className="flex items-center justify-center lg:justify-start gap-4 text-xs text-snack-dark-blue/60">
+                <div className="flex items-center gap-1.5">
+                  <CheckCircle className="w-3 h-3 text-logo-green" />
                   30+ Snack Varieties
                 </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-logo-green" />
+                <div className="flex items-center gap-1.5">
+                  <CheckCircle className="w-3 h-3 text-logo-green" />
                   Fast Shipping
                 </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle className="w-4 h-4 text-logo-green" />
+                <div className="flex items-center gap-1.5">
+                  <CheckCircle className="w-3 h-3 text-logo-green" />
                   Gift Ready
                 </div>
               </div>
