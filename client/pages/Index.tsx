@@ -301,9 +301,12 @@ export default function Index() {
               >
                 <div className="aspect-square overflow-hidden relative">
                   <img
-                    src={product.image}
-                    alt={product.name}
+                    src={`${product.image}&quality=85`}
+                    alt={`${product.name} - Premium snack variety box with ${product.size} assorted treats perfect for gifting`}
                     className="w-full h-full object-cover image-hover"
+                    loading="lazy"
+                    width="300"
+                    height="300"
                   />
                   {index === 1 && (
                     <div className="absolute top-3 right-3 bg-logo-green text-white px-2 py-1 rounded-full text-xs font-bold">
