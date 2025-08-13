@@ -141,79 +141,37 @@
   /* Hide TikTok video details and suggestions */
   .tiktok-embed-container {
     position: relative;
-    overflow: hidden;
   }
 
-  /* Hide the text content below TikTok videos */
+  /* Hide the text content below TikTok videos using CSS only */
   .tiktok-embed blockquote section {
-    display: none !important;
-  }
-
-  /* Hide TikTok watermark and branding */
-  .tiktok-embed blockquote::after {
-    display: none !important;
-  }
-
-  /* Hide suggested videos overlay */
-  .tiktok-embed iframe[src*="tiktok"] {
-    position: relative;
-  }
-
-  /* Alternative approach - hide the entire section content except video */
-  .tiktok-embed blockquote > section > a,
-  .tiktok-embed blockquote > section {
-    visibility: hidden !important;
-    height: 0 !important;
+    position: absolute !important;
+    left: -9999px !important;
+    width: 1px !important;
+    height: 1px !important;
     overflow: hidden !important;
   }
 
-  /* Ensure video container maintains proper sizing */
+  /* Style the TikTok embed container */
+  .tiktok-embed-container iframe {
+    border-radius: 12px;
+    border: none;
+    max-width: 325px;
+    margin: 0 auto;
+  }
+
+  /* Center the TikTok videos */
+  .tiktok-embed {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Hide any fallback text that might appear */
   .tiktok-embed blockquote {
     margin: 0 !important;
     padding: 0 !important;
     border: none !important;
     background: transparent !important;
-  }
-
-  /* Hide any text or link elements in TikTok embed */
-  .tiktok-embed a,
-  .tiktok-embed p,
-  .tiktok-embed span[role="text"] {
-    display: none !important;
-  }
-
-  /* Additional TikTok specific hiding */
-  .tiktok-embed-container iframe {
-    border-radius: 12px;
-    overflow: hidden;
-  }
-
-  /* Hide TikTok related videos and suggestions */
-  .tiktok-embed iframe::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100px;
-    background: transparent;
-    pointer-events: none;
-    z-index: 10;
-  }
-
-  /* Clean video-only display */
-  .tiktok-video-only {
-    position: relative;
-    width: 100%;
-    max-width: 325px;
-    margin: 0 auto;
-  }
-
-  .tiktok-video-only iframe {
-    width: 100% !important;
-    height: 575px !important;
-    border: none !important;
-    border-radius: 12px !important;
   }
 
   .card-enhanced {
