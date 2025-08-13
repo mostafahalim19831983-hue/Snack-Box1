@@ -138,6 +138,50 @@
     animation: slideUp 0.8s ease-out;
   }
 
+  /* Hide TikTok video details and suggestions */
+  .tiktok-embed-container {
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Hide the text content below TikTok videos */
+  .tiktok-embed blockquote section {
+    display: none !important;
+  }
+
+  /* Hide TikTok watermark and branding */
+  .tiktok-embed blockquote::after {
+    display: none !important;
+  }
+
+  /* Hide suggested videos overlay */
+  .tiktok-embed iframe[src*="tiktok"] {
+    position: relative;
+  }
+
+  /* Alternative approach - hide the entire section content except video */
+  .tiktok-embed blockquote > section > a,
+  .tiktok-embed blockquote > section {
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+  }
+
+  /* Ensure video container maintains proper sizing */
+  .tiktok-embed blockquote {
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    background: transparent !important;
+  }
+
+  /* Hide any text or link elements in TikTok embed */
+  .tiktok-embed a,
+  .tiktok-embed p,
+  .tiktok-embed span[role="text"] {
+    display: none !important;
+  }
+
   .card-enhanced {
     border: 2px solid #2ecc71;
     background: white;
