@@ -156,7 +156,9 @@ export default function Index() {
 
               <div className="inline-flex items-center gap-2 bg-logo-green/10 text-logo-green px-3 py-1.5 rounded-full text-xs sm:text-sm font-semibold mb-4">
                 <CheckCircle className="w-3 h-3 sm:w-4 sm:h-4" />
-                <span className="hidden sm:inline">Premium Quality Guaranteed</span>
+                <span className="hidden sm:inline">
+                  Premium Quality Guaranteed
+                </span>
                 <span className="sm:hidden">Premium Quality</span>
               </div>
 
@@ -171,8 +173,13 @@ export default function Index() {
               </h1>
 
               <p className="text-sm sm:text-base text-snack-dark-blue/80 mb-4 sm:mb-5 max-w-lg mx-auto lg:mx-0 leading-relaxed">
-                <span className="hidden sm:inline">Premium assortment of delicious snacks, beautifully packaged. Perfect for gifts, office treats, and special occasions.</span>
-                <span className="sm:hidden">Premium snack boxes perfect for gifts and special occasions.</span>
+                <span className="hidden sm:inline">
+                  Premium assortment of delicious snacks, beautifully packaged.
+                  Perfect for gifts, office treats, and special occasions.
+                </span>
+                <span className="sm:hidden">
+                  Premium snack boxes perfect for gifts and special occasions.
+                </span>
               </p>
 
               <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center lg:justify-start mb-4 sm:mb-5">
@@ -617,13 +624,13 @@ export default function Index() {
                   <div className="flex justify-center mb-3 sm:mb-4">
                     <div className="bg-blue-600 p-3 rounded-xl shadow-lg inline-block">
                       <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F9eae62feb04c48cb96ee02dd2f9b0679?format=webp&width=100&quality=90"
-                      alt="Premium quality spark icon - Gift A Snack quality guarantee"
-                      className="h-6 w-6 sm:h-8 sm:w-8 filter brightness-0 invert"
-                      loading="lazy"
-                      width="32"
-                      height="32"
-                    />
+                        src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2F9eae62feb04c48cb96ee02dd2f9b0679?format=webp&width=100&quality=90"
+                        alt="Premium quality spark icon - Gift A Snack quality guarantee"
+                        className="h-6 w-6 sm:h-8 sm:w-8 filter brightness-0 invert"
+                        loading="lazy"
+                        width="32"
+                        height="32"
+                      />
                     </div>
                   </div>
 
