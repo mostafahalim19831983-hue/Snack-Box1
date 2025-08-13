@@ -179,20 +179,20 @@ export default function Index() {
                 </span>
               </h1>
 
-              <p className="text-base sm:text-lg md:text-xl text-snack-dark-blue/80 mb-6 sm:mb-8 max-w-xl mx-auto lg:mx-0 leading-relaxed">
+              <p className="text-sm sm:text-base text-snack-dark-blue/80 mb-4 sm:mb-5 max-w-lg mx-auto lg:mx-0 leading-relaxed">
                 Premium assortment of delicious snacks, beautifully packaged.
                 Perfect for gifts, office treats, and special occasions.
               </p>
 
-              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center lg:justify-start mb-6 sm:mb-8">
+              <div className="flex flex-col sm:flex-row gap-2 sm:gap-3 justify-center lg:justify-start mb-4 sm:mb-5">
                 <button
                   onClick={scrollToProducts}
-                  className="bg-logo-green hover:bg-green-500 text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-2xl text-base sm:text-lg button-enhanced flex items-center justify-center gap-2 min-h-[48px]"
+                  className="bg-logo-green hover:bg-green-500 text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base button-enhanced flex items-center justify-center gap-2 min-h-[40px]"
                 >
-                  <Package className="w-5 h-5" />
+                  <Package className="w-4 h-4" />
                   Shop Now
                 </button>
-                <button className="border-2 border-logo-green text-logo-green hover:bg-logo-green hover:text-white font-bold px-6 sm:px-8 py-3 sm:py-4 rounded-2xl text-base sm:text-lg transition-all duration-300 min-h-[48px]">
+                <button className="border-2 border-logo-green text-logo-green hover:bg-logo-green hover:text-white font-bold px-4 sm:px-6 py-2 sm:py-3 rounded-xl text-sm sm:text-base transition-all duration-300 min-h-[40px]">
                   Learn More
                 </button>
               </div>
