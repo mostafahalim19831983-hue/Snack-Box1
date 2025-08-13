@@ -261,6 +261,20 @@
   .rounded-2xl {
     border-radius: 16px;
   }
+
+  /* Mobile-first responsive utilities */
+  .touch-manipulation {
+    touch-action: manipulation;
+  }
+
+  .tap-highlight-none {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* Improved focus states for accessibility */
+  .focus-visible-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-logo-green focus-visible:ring-offset-2;
+  }
 }
 
 @keyframes fadeIn {
