@@ -478,14 +478,14 @@ export default function Index() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
             {/* Quick Links */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-heading-red">
+              <h3 className="text-lg font-semibold mb-4 text-heading-red">
                 Quick Links
               </h3>
-              <ul className="space-y-3">
+              <ul className="space-y-2">
                 <li>
                   <a
                     href="#"
-                    className="hover:text-logo-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-sm"
                   >
                     Home
                   </a>
@@ -493,7 +493,7 @@ export default function Index() {
                 <li>
                   <a
                     href="#products-section"
-                    className="hover:text-logo-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-sm"
                   >
                     Products
                   </a>
@@ -501,7 +501,7 @@ export default function Index() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-logo-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-sm"
                   >
                     Testimonials
                   </a>
@@ -509,7 +509,7 @@ export default function Index() {
                 <li>
                   <a
                     href="#"
-                    className="hover:text-logo-green transition-colors text-lg"
+                    className="hover:text-logo-green transition-colors text-sm"
                   >
                     Contact Us
                   </a>
@@ -519,15 +519,15 @@ export default function Index() {
 
             {/* Social Media */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-heading-red">
+              <h3 className="text-lg font-semibold mb-4 text-heading-red">
                 Follow Us
               </h3>
-              <div className="flex gap-6">
+              <div className="flex gap-4">
                 <a
                   href="https://tiktok.com/@nut.cravings"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-logo-green transition-colors text-lg"
+                  className="hover:text-logo-green transition-colors text-sm"
                 >
                   TikTok
                 </a>
@@ -535,7 +535,7 @@ export default function Index() {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-logo-green transition-colors text-lg"
+                  className="hover:text-logo-green transition-colors text-sm"
                 >
                   Instagram
                 </a>
@@ -543,7 +543,7 @@ export default function Index() {
                   href="#"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="hover:text-logo-green transition-colors text-lg"
+                  className="hover:text-logo-green transition-colors text-sm"
                 >
                   Facebook
                 </a>
@@ -552,22 +552,22 @@ export default function Index() {
 
             {/* Walmart Link */}
             <div>
-              <h3 className="text-xl font-semibold mb-6 text-heading-red">
+              <h3 className="text-lg font-semibold mb-4 text-heading-red">
                 Order Now
               </h3>
               <a
                 href={products[0].walmartLink}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-logo-green hover:bg-green-500 text-white px-8 py-3 rounded-2xl transition-colors duration-200 text-lg font-semibold button-enhanced"
+                className="inline-block bg-logo-green hover:bg-green-500 text-white px-4 py-2 rounded-lg transition-colors duration-200 text-sm font-semibold button-enhanced"
               >
                 Order from Walmart
               </a>
             </div>
           </div>
 
-          <div className="border-t border-gray-600 pt-10 text-center">
-            <p className="text-lg">
+          <div className="border-t border-gray-600 pt-4 text-center">
+            <p className="text-sm">
               &copy; 2025 Snack Box. All rights reserved.
             </p>
           </div>
