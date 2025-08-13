@@ -364,7 +364,7 @@ export default function Index() {
         <div className="max-w-5xl mx-auto relative z-10">
           <div className="text-center mb-10 relative z-10">
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-3 tracking-tight">
-              Watch Snack Box on TikTok
+              Watch Gift A Snack on TikTok
             </h2>
             <p className="text-base text-gray-300 max-w-xl mx-auto">
               See our snack boxes in action and get inspired for your next order
