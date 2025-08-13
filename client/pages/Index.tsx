@@ -157,9 +157,13 @@ export default function Index() {
               <div className="flex justify-center lg:justify-start mb-4 sm:mb-5">
                 <div className="bg-gray-100 p-3 sm:p-4 rounded-lg sm:rounded-xl shadow-lg inline-block">
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd932fcd18414ba798762d622c2b825c?format=webp&width=800"
-                    alt="Nut Cravings Logo"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F79b7dfd5cb0f4ca0b96e836c27c6ef40%2Fcd932fcd18414ba798762d622c2b825c?format=webp&width=400&quality=90"
+                    alt="Gift A Snack - Premium Snack Box Company Logo"
                     className="h-18 sm:h-20 lg:h-24 w-auto"
+                    loading="eager"
+                    fetchPriority="high"
+                    width="200"
+                    height="96"
                   />
                 </div>
               </div>
