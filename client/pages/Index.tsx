@@ -169,7 +169,7 @@ export default function Index() {
                 Premium Quality Guaranteed
               </div>
 
-              <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-black text-heading-red mb-4 leading-tight tracking-tight">
+              <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-black text-heading-red mb-4 leading-tight tracking-tight">
                 Snack Box
                 <span className="block text-snack-dark-blue">
                   Perfect Gift for
