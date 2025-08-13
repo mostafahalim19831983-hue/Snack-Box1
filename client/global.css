@@ -234,15 +234,15 @@
   }
 
   .feature-icon {
-    width: 60px;
-    height: 60px;
+    width: 48px;
+    height: 48px;
     background: linear-gradient(135deg, #2ecc71, #27ae60);
-    border-radius: 16px;
+    border-radius: 12px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
-    margin: 0 auto 1rem;
+    margin: 0 auto 0.75rem;
   }
 }
 
