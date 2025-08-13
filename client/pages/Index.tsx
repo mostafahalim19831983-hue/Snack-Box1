@@ -253,13 +253,13 @@ export default function Index() {
                   key={index}
                   className="text-center card-enhanced p-5 hover:scale-105 transition-all duration-300"
                 >
-                  <div className="feature-icon mb-6">
-                    <IconComponent className="w-7 h-7" />
+                  <div className="feature-icon mb-4">
+                    <IconComponent className="w-6 h-6" />
                   </div>
-                  <h3 className="text-xl font-bold text-heading-red mb-4">
+                  <h3 className="text-lg font-bold text-heading-red mb-2">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
+                  <p className="text-sm text-gray-600 leading-relaxed">
                     {feature.description}
                   </p>
                 </div>
